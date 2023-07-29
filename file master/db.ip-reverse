@@ -1,0 +1,18 @@
+;
+; BIND reverse data file for broadcast zone
+;
+$TTL	604800
+@	IN	SOA	syawal-idnacademy.id. root.syawal-idnacademy.id. (
+			      1		; Serial
+			 604800		; Refresh
+			  86400		; Retry
+			2419200		; Expire
+			 604800 )	; Negative Cache TTL
+;
+@	IN	NS	syawal-idnacademy.id.
+215.1	IN	PTR	syawal-idnacademy.id.
+215.1	IN	PTR	www.syawal-idnacademy.id.
+215.1	IN	PTR	master.syawal-idnacademy.id.
+215.1	IN	PTR	srv1.syawal-idnacademy.id.
+213.1	IN	PTR	slave.syawal-idnacademy.id.
+213.1	IN	PTR	srv2.syawal-idnacademy.id.
